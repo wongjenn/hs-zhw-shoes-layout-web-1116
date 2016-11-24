@@ -24,4 +24,30 @@
 
 /* Posititoning Classes */
 
+.col-1 {
+  float: left;
+  width: 32%;
+}
 
+.col-2 {
+  float: left;
+  width: 66%;
+}
+
+.col-3 {
+
+}
+
+[class*="col-"] {
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+.first {
+  margin-right:  0%;
+  margin-bottom: 2%;
+}
+
+#summer-grass #shoe-archive {
+  display: inline-block;
+}
